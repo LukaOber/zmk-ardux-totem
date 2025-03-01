@@ -67,6 +67,10 @@ jobs:
             shield: cradio_ardux_right
           - board: nice_nano_v2
             shield: cradio_ardux_thumb_right
+          - board: seeeduino_xiao_ble
+            shield: totem_left_big
+          - board: seeeduino_xiao_ble
+            shield: totem_right_big
     steps:
       - name: Checkout
         uses: actions/checkout@v4
